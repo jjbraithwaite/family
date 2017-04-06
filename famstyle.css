@@ -1,0 +1,64 @@
+body{
+	/*border: 1px solid white;*/
+	border-style: none;
+	background-color: white;
+	
+}
+#mainnav {
+	list-style-type: none;
+	margin: auto;
+	padding: 20px;
+	width: 65%;
+	font-family: "Ludcia Console", monospace;
+	font-size: 150%;
+	color: green;
+	text-align: center;
+	border: 2px solid orange;
+	background-color:orange;
+}
+/* unvisited link */
+a.navlink:link {
+    color: green ;
+	text-decoration: none;
+}
+
+/* visited link */
+a.navlink:visited {
+    color: green;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a.navlink:hover {
+    color: green;
+	text-decoration: none;
+	background-color:chartreuse;
+}
+
+/* selected link */
+a.navlink:active {
+    color: darkgreen;
+}
+li {
+	text-align: center;
+	padding: 5px;
+	display: inline;
+}
+.container {
+	width: 65%;
+	padding: 20px;
+	margin: auto;
+	text-align: center;/*
+	border-style: none;*/
+	border: 1px solid white;
+	background-color: khaki;
+}
+#footerdiv{
+	width: 65%;
+	margin: auto;
+	border: 2px solid orange;
+	background-color:orange;
+	padding: 20px;
+	font-family: "Ludcia Console", monospace;
+	color: green;
+}
