@@ -8,7 +8,7 @@ body{
 	list-style-type: none;
 	margin: auto;
 	padding: 20px;
-	width: 65%;
+	width: 70%;
 	font-family: "Ludcia Console", monospace;
 	font-size: 150%;
 	color: green;
@@ -45,7 +45,7 @@ li {
 	display: inline;
 }
 .container {
-	width: 65%;
+	width: 70%;
 	padding: 20px;
 	margin: auto;
 	text-align: center;/*
@@ -54,7 +54,7 @@ li {
 	background-color: khaki;
 }
 #footerdiv{
-	width: 65%;
+	width: 70%;
 	margin: auto;
 	border: 2px solid orange;
 	background-color:orange;
@@ -62,3 +62,22 @@ li {
 	font-family: "Ludcia Console", monospace;
 	color: green;
 }
+table, td{
+		border: 1px solid black;
+		border-spacing:0;
+		text-align: center;
+		padding: 5px;
+		font-size: large;
+	}
+	.purple{
+		color:purple
+	}
+	.medpurple{
+		background-color:#ccb3ff;
+	}
+	.lightpurple{
+		background-color: #eee6ff;
+	}
+	.righttext{
+		text-align:right;
+	}
